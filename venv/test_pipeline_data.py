@@ -1,5 +1,6 @@
 from pipeline_data import compute_median_mean_diff
 import pytest
+import pandas as pd
 
 def test_compute_median_mean_diff():
     # Création de données de test
